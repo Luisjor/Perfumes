@@ -1,0 +1,131 @@
+    html {
+      background-color: #f3eae3;
+    }
+
+    a:link {
+    text-decoration: none;
+    }
+
+    #container {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #ButtonBuy {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imagen img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      height: 60vh;
+      border-top-left-radius: 5%;
+      border-bottom-left-radius: 5%;
+    }
+
+    #texto {
+      height: 60vh;
+      width: 40vh;
+      background-color: white;
+      border-top-right-radius: 5%;
+      border-bottom-right-radius: 5%;  
+    }
+
+    .perfume {
+      display: inline-block;
+      font-size: 2vh;
+      margin-left: 5vh;
+      margin-right: 10vh;
+      margin-top: 3vh;
+      margin-bottom: 3vh;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+
+    .header {
+      display: inline-block;
+      margin-left: 5vh;
+      margin-right: 5vh;
+      margin-bottom: 3vh;
+      color: black;
+      font-family: 'Fraunces', serif;
+      font-size: 5vh;
+      font-weight: 700;      
+    }
+
+    .texto {
+      display: inline-block;
+      margin-left: 5vh;
+      margin-right: 5vh;
+      margin-bottom: 3vh;
+      font-size: 2vh;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+
+    .AddToCart {
+        color: white;
+        background-color: #357d65;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 0ch;
+    }
+
+    .AddToCart:hover {
+      background-color: #1a4031;
+    }
+
+    .cart {
+      display: inline-block;
+      color: white;
+      font-family: 'Fraunces', serif;
+      font-size: 2vh;
+      font-weight: 7000;
+
+    }
+
+    #precios {
+      margin: auto;
+      display: flex;
+      font-family: 'Fraunces', serif;
+      font-weight: 1000;
+      justify-content: space-evenly;
+      margin-bottom: 3vh;
+      align-items: center;
+      flex-direction: row;
+      align-self: center;
+    }
+
+    .rebajado {
+      display: inline-block;
+      font-size: 4vh;
+      font-family: 'Fraunces', serif;
+      font-weight: 1000;
+      color: #357d65;
+    }
+
+    .normal {
+      display: inline-block;
+      font-size: 2vh;
+      align-items: center;
+      justify-content: center;  
+      font-family: 'Fraunces', serif;
+      font-weight: 1000;
+      color: #777a83;
+      text-decoration: line-through;
+    }
